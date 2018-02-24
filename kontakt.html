@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
+   <title>HOCHHOLDINGER - Die Kunst des Wohnens</title>
+   <meta charset ="utf-8">
+</head>
+
+
+<body>
+
+
+ <div id="wrapper">
+      <header><img src="bilder/logo.png" alt="Logo"></header>
+	  
+	  <nav>
+	     <ul>
+	  
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<div class="dropdown">
+						<li><a onclick="myFunction()" class="dropbtn">Produkte</a></li>
+						  <div id="myDropdown" class="dropdown-content">
+							<a href="#home">Möbel</a>
+							<a href="#about">Parkettböden</a>
+							<a href="#contact">Türen und Fenster</a>
+							<a href="#contact">Intarsienkunst</a>
+							<a href="#contact">Wand und Decke</a>
+							<a href="#contact">Stiegen</a>
+						  </div>
+						</div>
+						<li><a href="kontakt.html" style="color:#54A4A3">Kontakt</a></li>
+					</ul>
+				</nav>
+	  
+	     </ul>
+      </nav>	 
+
+	  
+	  <section>
+	      <div id="kontakt">
+        <h1>Kontakt</h1>
+		<a>Name:</a>
+		<p>Klaus Hochholdinger, A-1150 Wien, Nobilegasse 17</p>
+		<a>Telefon:</a>
+		<p>(01) 985 75 72...-0, Fax (01) 985 75 72-13</p>
+		<a>E-Mail:</a>
+		<p>office@hochholdinger.com</p>
+		
+		<h1>Öffnungszeiten</h1>
+		<a>Montag bis Donnerstag</a>
+		<p>Gerne nach Terminvereinbarung unter 0699-19770202</p>
+		<a>Freitag</a>
+		<p>9 bis 12 und 13.30 bis 17.30 Uhr</p>
+		<a>Samstag</a>
+		<p>10 bis 15 Uhr</p>
+	  
+	     </div>
+	  </section>
+	  
+	  
+	  <aside>
+	    <div class="sidebar">
+		  <a href="#">Das ist die Sidebar</a>
+		  <img src="bilder/sidebar.png" alt="Sidebar">
+          <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>	
+         </div>  	
+	    <div class="sidebar">
+		  <a href="#">Das ist die Sidebar</a>
+		  <img src="bilder/sidebar.png" alt="Sidebar">
+          <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>	
+         </div> 		 
+	  
+	  </aside>
+	  
+	  <footer>
+	    <p><a href="#">© 2001/2017 Klaus Hochholdinger.</a></p>
+	  </footer>
+	   
+ </div>
+ 
+</body>
+
+</html>
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
