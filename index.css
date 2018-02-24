@@ -1,0 +1,63 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  margin: 0;
+}
+.dark {
+  padding: 0.5rem;
+  background-color: #880E4F;
+  color: white;
+}
+.light, body > div {
+  padding: 0.5rem;
+}
+.map {
+  max-height: 25rem;
+  margin: 0;
+  padding: 0;
+}
+.j-c-c {
+  display: flex;
+  justify-content: center;
+}
+.j-c-s {
+  display: flex;
+  justify-content: start;
+}
+.mr {
+  margin-right: 1rem;
+}
+.ml {
+  margin-left: 1rem;
+}
+nav {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+footer {
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+}
+nav > a, footer > p {
+  text-decoration: none;
+  margin: 0.4rem 1rem;
+}
+a {
+  color: inherit;
+}
+h1, h2, h3, h4 {
+  font-weight: 400;
+  font-family: 'Abril Fatface', serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+h1 {font-size: 4rem;}
+h2 {font-size: 3rem;}
+h3 {font-size: 2rem;}
+h1 {font-size: 1rem;}

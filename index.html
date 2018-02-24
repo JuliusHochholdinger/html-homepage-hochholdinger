@@ -1,98 +1,137 @@
-
 <!DOCTYPE html>
 
 <html>
 
-	<head>
-		<link rel="stylesheet" href="style.css" type="text/css">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<title>HOCHHOLDINGER - Die Kunst des Wohnens</title>
-		<meta charset ="utf-8">
-	</head>
-	
-	<body>
-		<div id="wrapper">
-			<header><img src="bilder/logo.png" alt="Logo"></header>
-			
-				<nav>
-					<ul>
-						<li><a href="index.html" style="color:#54A4A3">Home</a></li>
-						<div class="dropdown">
-						<li><a onclick="myFunction()" class="dropbtn">Produkte</a></li>
-						  <div id="myDropdown" class="dropdown-content">
-							<a href="#home">Möbel</a>
-							<a href="#about">Parkettböden</a>
-							<a href="#contact">Türen und Fenster</a>
-							<a href="#contact">Intarsienkunst</a>
-							<a href="#contact">Wand und Decke</a>
-							<a href="#contact">Stiegen</a>
-						  </div>
-						</div>
-						<li><a href="kontakt.html">Kontakt</a></li>
-					</ul>
-				</nav>
-			
-			<section>
-				<div class="article">
-					<img class="bild" src="bilder/vorschau.png" alt="Vorschau">
-					<img class="bild_gross" src="bilder/vorschau.png" alt="Vorschau">
-					<a href="#">Das ist der Titel von diesem Beitrag</a>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-				</div>
-				<div class="article">
-					<img class="bild" src="bilder/vorschau.png" alt="Vorschau">
-					<img class="bild_gross" src="bilder/vorschau.png" alt="Vorschau">
-					<a href="#">Das ist der Titel von diesem Beitrag</a>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-				</div>
-				<div class="article">
-					<img class="bild" src="bilder/vorschau.png" alt="Vorschau">
-					<img class="bild_gross" src="bilder/vorschau.png" alt="Vorschau">
-					<a href="#">Das ist der Titel von diesem Beitrag</a>
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-				</div>
-			</section>
-			
-			<aside>
-				<div class="sidebar">
-					<a href="#">Das ist die Sidebar</a>
-					<img src="bilder/sidebar.png" alt="Sidebar">
-					<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-				</div>
-				<div class="sidebar">
-					<a href="#">Das ist die Sidebar</a>
-					<img src="bilder/sidebar.png" alt="Sidebar">
-					<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-				</div>
-			</aside>
-			
-			<footer>
-				<p><a href="#">© 2001/2017 Klaus Hochholdinger.</a></p>
-			</footer>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<title>Hochholdinger</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="j-c-c">
+		<img id="start" src="bilder/logo.png" alt="Logo">
+	</div>
+
+	<nav class="j-c-c">
+		<a href="#start">Start</a>
+		<a href="#produkte">Produkte</a>
+		<a href="#kontakt">Kontakt</a>
+		<a href="#oeffnungszeiten">Öffnungszeiten</a>
+		<a href="#anreise">Anreise</a>
+	</nav>
+
+	<div id="produkte" class="j-c-s">
+		<div class="mr">
+			<h2>Produkte</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+				aliquyam erat, sed diam voluptua.
+			</p>
 		</div>
-	</body>
+		<img src="bilder/vorschau.png" alt="Vorschau">
+	</div>
+
+	<div id="kontakt" class="dark">
+		<h2>Kontakt</h2>
+		<p>
+			Mail:
+			<a href="mailto:office@hochholdinger.com">office@hochholdinger.com</a>
+			<br> Tel: 01 985 75 72 0
+			<br> Fax: 01 985 75 72 13
+		</p>
+	</div>
+
+	<div id="oeffnungszeiten">
+		<h2>Öffnungszeiten</h2>
+		<div class="j-c-s">
+			<div>
+				<h3>Montag bis Donnerstag</h3>
+				<p>Gerne nach Terminvereinbarung unter 0699 19 77 02 02</p>
+			</div>
+			<div class="mr ml">
+				<h3>Freitag</h3>
+				<p>9:00 bis 12:00 und 13.30 bis 17.30</p>
+			</div>
+			<div>
+				<h3>Samstag</h3>
+				<p>10:00 bis 15:00</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="anreise" class="dark">
+		<h2>Anreise</h2>
+		<p>
+			Klaus Hochholdinger - Die Kunst des Wohnens
+			<br> A-1150 Wien, Nobilegasse 17 (Ecke Goldschlagstraße)
+		</p>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6079.326664884219!2d16.31114284781742!3d48.195282493810176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476da800ec2dce97%3A0x30280d2114814ec6!2sHochholdinger+GmbH!5e0!3m2!1sde!2sch!4v1519468420727"
+			 width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<h3>Mit dem Auto</h3>
+		<div class="j-c-s">
+			<div>
+				<h4>Von Süden</h4>
+				<p>
+					über die Autobahnabfahrt Altmannsdorf - Altmannsdorferstraße - Grünbergstraße - Winkelmannstraße - Linzer Straße - Johnstraße
+					- Goldschlagstraße - Nobilegasse
+				</p>
+			</div>
+			<div>
+				<h4>Von Norden</h4>
+				<p>
+					über den Gürtel - Hütteldorferstraße - nach der Kreuzung mit der Johnstraße links in die Nobilegasse
+				</p>
+			</div>
+			<div>
+				<h4>Aus der Innenstadt</h4>
+				<p>
+					über die Linke Wienzeile - Schloßallee - Johnstraße - Goldschlagstraße - Nobilegasse
+				</p>
+			</div>
+			<div>
+				<h4>Von Westen</h4>
+				<p>
+					über den Hietzinger Kai - bei Schönbrunn links über die Schloßbrücke - Schloßallee - Johnstraße - Goldschlagstraße - Nobilegasse
+				</p>
+			</div>
+		</div>
+		<p>
+			Ein wenig kann Ihnen vielleicht unser Verkehrsleitsystem helfen: An den Hauptstrecken zeigen Ihnen gelbe Tafeln mit den grünen
+			"Hochholdinger-Bäumen" von Zeit zu Zeit an, daß Sie auf dem richtigen Weg sind.
+		</p>
+	</div>
+
+	<footer class="j-c-c">
+		<p>© 2018 Julius Hochholdinger / Noam Bachmann</p>
+	</footer>
+</body>
 
 </html>
 
 <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+		document.getElementById("myDropdown").classList.toggle("show");
+	}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function (event) {
+		if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
+			}
+		}
+	}
 </script>
