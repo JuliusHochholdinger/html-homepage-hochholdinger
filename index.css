@@ -1,20 +1,35 @@
-* {
+html {
   font-family: 'Raleway', sans-serif;
+}
+.ontop {
+  z-index: 1000;
 }
 body {
   margin: 0;
 }
+.img {
+  max-height: 15rem;
+}
+.wrap > .img {
+  max-height: none;
+  margin: 1rem auto 0 auto;
+}
 .dark {
-  padding: 0.5rem;
-  background-color: #880E4F;
+  padding: 2rem 0.5rem;
+  background-color: #0D47A1;
+  color: white;
+}
+.lighter {
+  padding: 2rem 0.5rem;
+  background-color: #1565C0;
   color: white;
 }
 .light, body > div {
-  padding: 0.5rem;
+  padding: 2rem 0.5rem;
 }
 .map {
-  max-height: 25rem;
-  margin: 0;
+  height: 15rem;
+  margin: 0 0 1rem 0;
   padding: 0;
 }
 .j-c-c {
@@ -25,28 +40,50 @@ body {
   display: flex;
   justify-content: start;
 }
-.mr {
-  margin-right: 1rem;
+.a-i-s {
+  display: flex;
+  align-content: flex-start;
 }
-.ml {
-  margin-left: 1rem;
+.wrap {
+  flex-wrap: wrap;
 }
-nav {
-  padding: 0.5rem;
+.space {
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.no_space {
+  display: none;
+}
+nav{
   background-color: black;
   color: white;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
+.nav {
+  background-color: #1565C0;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3rem;
+}
+.navdown {
+  top: 6rem;
+}
+.nopadding {
+  padding: 0;
+}
 footer {
-  padding: 0.5rem;
   background-color: black;
   color: white;
 }
-nav > a, footer > p {
+nav > a, .nav > a {
   text-decoration: none;
-  margin: 0.4rem 1rem;
+  margin: 1rem;
+}
+footer > p {
+  margin: 1rem 0.5rem;
 }
 a {
   color: inherit;
@@ -60,4 +97,10 @@ h1, h2, h3, h4 {
 h1 {font-size: 4rem;}
 h2 {font-size: 3rem;}
 h3 {font-size: 2rem;}
-h1 {font-size: 1rem;}
+h4 {font-size: 1rem;}
+.lead {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
