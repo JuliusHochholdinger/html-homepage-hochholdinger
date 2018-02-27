@@ -16,12 +16,10 @@ body {
 }
 .dark {
   padding: 2rem 0.5rem;
-  background-color: #0D47A1;
   color: white;
 }
 .lighter {
   padding: 2rem 0.5rem;
-  background-color: #1565C0;
   color: white;
 }
 .light, body > div {
@@ -55,14 +53,12 @@ body {
   display: none;
 }
 nav{
-  background-color: black;
   color: white;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 .nav {
-  background-color: #1565C0;
   color: white;
   position: -webkit-sticky;
   position: sticky;
@@ -75,7 +71,6 @@ nav{
   padding: 0;
 }
 footer {
-  background-color: black;
   color: white;
 }
 nav > a, .nav > a {
@@ -90,7 +85,7 @@ a {
 }
 h1, h2, h3, h4 {
   font-weight: 400;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Cherry Swash', serif;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -103,4 +98,16 @@ h4 {font-size: 1rem;}
   margin-bottom: 0;
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.nav, .lighter {
+background-color: #4E342E;
+}
+.light, body > div {
+  background-color: none;
+}
+.dark {
+  background-color: #795548;
+}
+nav, footer {
+  background-color: #3E2723;
 }
