@@ -1,6 +1,12 @@
 html {
   font-family: 'Raleway', sans-serif;
 }
+
+.logo {
+  background-image: url("bilder/topbackground.jpg");
+  height: 300px;3
+}
+
 .ontop {
   z-index: 1000;
 }
@@ -100,14 +106,14 @@ h4 {font-size: 1rem;}
   line-height: 2rem;
 }
 .nav, .lighter {
-background-color: #4E342E;
+background-color: #333333;
 }
 .light, body > div {
-  background-color: none;
+  background-color: #A89D99;
 }
 .dark {
-  background-color: #795548;
+  background-color: #A89D99;
 }
 nav, footer {
-  background-color: #3E2723;
+  background-color: #343434;
 }
