@@ -17,11 +17,9 @@ body {
 }
 .dark {
   padding: 2rem 0.5rem;
-  color: white;
 }
 .lighter {
   padding: 2rem 0.5rem;
-  color: white;
 }
 .light, body > div {
   padding: 2rem 0.5rem;
@@ -58,13 +56,11 @@ body {
   display: none;
 }
 nav{
-  color: white;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 .nav {
-  color: white;
   position: -webkit-sticky;
   position: sticky;
   top: 3rem;
@@ -74,9 +70,6 @@ nav{
 }
 .nopadding {
   padding: 0;
-}
-footer {
-  color: white;
 }
 nav > a, .nav > a {
   text-decoration: none;
@@ -108,7 +101,7 @@ h4 {font-size: 1rem;}
 background-color: #455A64;
 }
 .light, body > div {
-  background-color: #CFD8DC;
+  background-color: #fff;
 }
 .dark {
   background-color: #607D8B;
