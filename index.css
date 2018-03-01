@@ -2,10 +2,6 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
-.logo {
-  height: 300px;
-}
-
 .ontop {
   z-index: 1000;
 }
@@ -109,14 +105,14 @@ h4 {font-size: 1rem;}
   line-height: 2rem;
 }
 .nav, .lighter {
-background-color: #DD2C00;
+background-color: #455A64;
 }
 .light, body > div {
-  background-color: white;
+  background-color: #CFD8DC;
 }
 .dark {
   background-color: #607D8B;
 }
-nav, footer, .logo {
-  background-color: #455A64;
+nav, footer, logo {
+  background-color: #263238;
 }
