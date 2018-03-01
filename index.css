@@ -3,8 +3,7 @@ html {
 }
 
 .logo {
-  background-image: url("bilder/topbackground.jpg");
-  height: 300px;3
+  height: 300px;
 }
 
 .ontop {
@@ -32,9 +31,13 @@ body {
   padding: 2rem 0.5rem;
 }
 .map {
-  height: 15rem;
+  max-width: 100%;
+  height:10rem;
   margin: 0 0 1rem 0;
   padding: 0;
+}
+.map:hover {
+  height: 40rem;
 }
 .j-c-c {
   display: flex;
@@ -42,7 +45,7 @@ body {
 }
 .j-c-s {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
 }
 .a-i-s {
   display: flex;
@@ -106,14 +109,14 @@ h4 {font-size: 1rem;}
   line-height: 2rem;
 }
 .nav, .lighter {
-background-color: #333333;
+background-color: #DD2C00;
 }
 .light, body > div {
-  background-color: #A89D99;
+  background-color: white;
 }
 .dark {
-  background-color: #A89D99;
+  background-color: #607D8B;
 }
-nav, footer {
-  background-color: #343434;
+nav, footer, .logo {
+  background-color: #455A64;
 }
